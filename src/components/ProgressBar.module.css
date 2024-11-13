@@ -1,0 +1,118 @@
+.bar {
+  background-color: blueviolet;
+  border-radius: 10px;
+  display: flex;
+  height: 20px;
+}
+/* 
+.threshold {
+    border-right: 1px solid green;
+    flex: 1;
+    height: 100%;
+}
+
+.threshold:last-child {
+  border-right: none;
+} */
+
+.threshold {
+  flex: 1;
+  height: 100%;
+}
+
+.threshold:not(:last-child) {
+    /* border: 1px solid black; */
+  border-right: 1px solid black;
+  /* border-right-color: green;
+  border-right-width: 1px;
+  border-right-style: solid; */
+}
+.threshold:first-child {  /* для закругления левой части шкалы */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.notAchived{
+    background-color: aliceblue;
+  display: flex;
+  height: 20px;
+}
+
+.notAchived:last-child{  /* для закругления правой части шкалы */
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+.icons{
+    height: 20px;
+    padding-left: 7.5px;
+   width: 503px;
+   display: flex;
+
+}
+
+
+
+.icon {
+    
+    flex: 1;
+    /* border: 2px rgb(222, 21, 21) solid; 
+    border-radius: 10px;
+    font-size: 10px; */
+    text-align: end;
+    /* padding: 0 50px; */
+   /* text-align: center;
+   display: inline; */
+
+
+}
+
+.icon:last-child {
+    padding-right: 2px;
+    flex: 1;
+    text-align: end;
+   
+
+
+}
+
+
+.values {
+    margin-top: 10px;
+    height: 10px;
+    /* padding-left: 5px; */
+   display: flex;
+   text-align: start;
+   font-size: 10px;
+}
+
+.value:not(:first-child) {
+    flex: 1;
+    font-size: 10px;
+    text-align: end;
+    /* border: 2px seagreen solid;
+    border-radius: 10px;
+    display: inline;
+    padding: 0 30px; */
+
+
+   
+}
+.value:nth-child(n+4) {
+   position: relative; 
+   left: 6px;
+}
+
+.value:nth-child(2) { /* центрирование второго ребенка в массиве с цифрами */
+    position: relative;
+    left: 6px;
+}
+
+
+
+
