@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/progress-bar/static/css/main.aabfedb1.css",
+    "main.js": "/progress-bar/static/js/main.4ad23535.js",
+    "index.html": "/progress-bar/index.html",
+    "main.aabfedb1.css.map": "/progress-bar/static/css/main.aabfedb1.css.map",
+    "main.4ad23535.js.map": "/progress-bar/static/js/main.4ad23535.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aabfedb1.css",
+    "static/js/main.4ad23535.js"
+  ]
+}
